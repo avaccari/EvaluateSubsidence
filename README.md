@@ -38,7 +38,20 @@ policy or position of the US Department of Transportation/Office of the
 Assistant Secretary for Research and Technology, or any state or other 
 entity.
 
+To compile the required mex files, execute the following command from the
+MATLAB prompt:
+
+mex residualMex.cpp residual.cpp
+
+The executables are self contained while, running the source code directly, 
+requries the mapping toolbox in order to generate the georeferenced TIFF 
+files.
+
+The executables will download and install the MATLAB runtime environment.
+
+The x64 version is for 64-bit Windows.
+The maci64 version is for 64-bit Mac OS X.
 
 ## Revision history
-### 2015-11-23 (Rev. 1.0)
+### 2015-12-07 (Rev. 1.0)
 First release.
