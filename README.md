@@ -11,7 +11,7 @@ Notes:
   should match those used in the shapefile
 - the coordinate should be located in the *X* and *Y* atributes of the 
   shapefile
-- the time, *always in months*, is extracted from the atributes in the 
+- the time, **always in months**, is extracted from the atributes in the 
   shapefile matching the format "DYYYYMMDD"
 - the "DYYYYMMDD" atributes should contain the displacement information 
   for that date
@@ -19,7 +19,7 @@ Notes:
   file does not contain an EPSG code, a query is made to prj2epsg.org and 
   the first match is returned. The user can always provide a specific EPSG 
   code to be used. In this case, the data will be assumed to be in the 
-  specified projection and *NOT* reprojected.
+  specified projection and **NOT** reprojected.
 - GeoTIFFs are saved in the directory where the shapefile is and 
   descriptive suffix are appended.
 
