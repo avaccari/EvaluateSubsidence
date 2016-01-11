@@ -49,9 +49,9 @@ files.
 
 The executables will download and install the MATLAB runtime environment.
 
-**The x64 version is for 64-bit Windows.**
+The **x64** version is for **64-bit Windows**.
 
-**The maci64 version is for 64-bit Mac OS X.**
+The **maci64** version is for **64-bit Mac OS X**.
 
 ## Revision history
 ### 2015-12-07 (Rev. 1.0)
